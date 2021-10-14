@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_article_image_with_captions",
+  "info": {
+    "name": "Image with caption",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "caption": {
+      "type": "string"
+    }
+  }
+}

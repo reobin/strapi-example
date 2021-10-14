@@ -16,7 +16,9 @@
       "type": "dynamiczone",
       "components": [
         "article.text",
-        "article.image"
+        "article.image",
+        "article.carousel",
+        "article.image-with-caption"
       ],
       "required": true
     },
